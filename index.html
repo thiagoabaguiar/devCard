@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>DevCard</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <p id="compartilhe"><a href="#">Compartilhe</a> seu #devcard</p>
+        <p id="customizar">Customizar DEVCARD</p>
+        <button id="button_gerar_bg" onClick=changeColorBg(event)>
+            <p>Gerar background</p>
+        </button>
+
+        <div id="card_bg">
+            <div id="card">
+                <div id="card_header">
+                    <div>
+                        <img src="./assets/logo_fireball_white.svg" alt="">
+                    </div>
+                    <p id="name"></p>
+                </div>
+
+                <div id="card_info">
+                    <div id="card_info_description">
+                        <p id="qty_followers">34 Seguidores</p>
+                        <p id="qty_following">139 Seguindo</p>
+                        <p id="qty_repositories">4 Repositórios</p>
+                        <p id="company">@Devclub</p>
+                        <p id="location">São Paulo</p>
+                    </div>
+                    <div id="card_info_img">
+                        <img id="img_followers" src="./assets/followers.svg" alt="">
+                        <img id="img_following" src="./assets/following.svg" alt="">
+                        <img id="img_repository" src="./assets/repository.svg" alt="">
+                        <img id="img_company" src="./assets/company.svg" alt="">
+                        <img id="img_location" src="./assets/location.svg" alt="">
+                    </div>
+                </div>
+
+                <div id="card_frame_avatar">
+                    <a href="#">
+                        <img id="card_avatar" alt="image_profile">
+                    </a>
+                </div>                
+
+                <div id="card_footer">
+                    <img src="./assets/logo_fireball_white.svg" alt="image_logo">
+                    <p>DEVCARD</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
